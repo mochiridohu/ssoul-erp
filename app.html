@@ -489,7 +489,7 @@ const SUPABASE_ANON_KEY = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 // ============================================================
 
 const { createClient } = window.supabase;
-const sb = createClient(`sb_publishable_4K4ttkogn3Z1yjDXOayqUg_SbcnRwyg`;, `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV0a3hxZW15eHZ1aGJpeXBybm9qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ1OTc0NTMsImV4cCI6MjA5MDE3MzQ1M30.V5WRRp6118aKDuHEdHHxGvhU7gmLxONKAipKlBzeedM`;);
+const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ====================== 전역 상태 ======================
 let allProducts = [];
